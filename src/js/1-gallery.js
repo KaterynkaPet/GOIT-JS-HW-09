@@ -68,9 +68,9 @@ const images = [
 ];
 
 const list = document.querySelector("ul.gallery");
-list.insertAdjacentHTML("beforeend", marcupGallery(images));
+list.insertAdjacentHTML("beforeend", markupGallery(images));
 
-function marcupGallery(arr) {
+function markupGallery(arr) {
     return arr
         .map(
             ({ preview, original, description }) =>
