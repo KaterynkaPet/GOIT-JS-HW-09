@@ -31,7 +31,7 @@ form.addEventListener("submit", function (event) {
 
     saveFormData(formData);
     console.log(formData);
-    form.requestFullscreen();
+    
     localStorage.removeItem(STORAGE_KEY);
 });
 
